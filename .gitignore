@@ -1,3 +1,4 @@
 complete_mednode_dataset/*
 downloads/*
 envtcc/*
+downloads_lmdb/*

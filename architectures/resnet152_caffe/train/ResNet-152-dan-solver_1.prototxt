@@ -1,0 +1,16 @@
+net: "/home/danilo/Documents/FGA/2018-1/TCC1/experiments/architectures/resnet152/train/ResNet_152_train_val_1.prototxt"
+iter_size: 12
+test_iter: 22023
+test_interval: 2000
+test_initialization: false
+display: 50
+base_lr: 0.01
+lr_policy: "step"
+stepsize: 17618
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.00001
+max_iter: 176180
+snapshot: 2000
+snapshot_prefix: "/home/danilo/Documents/FGA/2018-1/TCC1/experiments/architectures/resnet152/train/med_atlas_edin_2"
+solver_mode: GPU

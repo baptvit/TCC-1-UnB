@@ -1,4 +1,9 @@
 complete_mednode_dataset/*
 downloads/*
+dataset_2/*
+dataset_3/*
+dataset_4/*
+dataset_ediburgn/*
+dataset_isic/*
 envtcc/*
 downloads_lmdb/*

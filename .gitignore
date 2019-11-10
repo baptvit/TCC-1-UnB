@@ -1,6 +1,9 @@
 complete_mednode_dataset/*
 downloads/*
 dataset/*
+dataset-split/*
+dataset (copy)/*
+dataset-size/*
 dataset_1/*
 dataset_2/*
 dataset_3/*

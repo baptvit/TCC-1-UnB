@@ -92,6 +92,51 @@ Finally, the model used in the testing phase was the product of the epoch number
 ### 4.3.2 Results
 The results can be find on the notebook [7_test_model_exp_1.ipynb](https://github.com/helpthx/TCC-1-UnB/blob/master/exp-1/7_test_model_exp_1.ipynb "7_test_model_exp_1.ipynb"). But overall metrics were:
 F1 score: 0.759174
- Accuracy score: 0.759174
+Accuracy score: 0.759174
 
-![enter image description here](fgdf)
+Example:
+Pick a random imagem which is a basal-cell-carcinoma lesion
+
+![Teste image for simple test](./exp_1_teste_imagem.png)
+
+Predict with the trained model:
+
+![Teste image for simple test](./exp_1_class_imagem_wrong.png)
+
+The model predicted wrong, but get close to match the true image label
+
+
+### Mapping skin lession with the real class label for the model
+
+ Lession name              | Class |
+|---------------------------|-------|
+| actinic-keratosis         | 5     |
+| basal-cell-carcinoma      | 10    |
+| dermatofibroma            | 0     |
+| hemangioma                | 11    |
+| intraepithelial-carcinoma | 6     |
+| lentigo                   | 4     |
+| malignant-melanoma        | 1     |
+| melanocytic-nevus         | 7     |
+| pyogenic-granuloma        | 3     |
+| seborrheic-keratosis      | 8     |
+| squamous-cell-carcinoma   | 2     |
+| wart                      | 9     |
+
+Here is the confusion matrix for the current model:
+
+![Confusion Matrix for this model](./cm.png)
+
+### ROC analsis for some labels
+
+#### ROC for class 2 which is squamous-cell-carcinoma
+![ROC class 2](./roc-for2.png)
+
+#### ROC for class 6 which is intraepithelial-carcinoma
+![ROC class 6](./roc-for6.png)
+
+#### ROC for class 9 which is wart
+![ROC class 9](./roc-for9.png)
+
+#### ROC for class 11 which is hemangioma
+![ROC class 11](./roc-for11.png)

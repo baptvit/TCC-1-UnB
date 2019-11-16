@@ -110,18 +110,18 @@ The model predicted wrong, but get close to match the true image label
 
  Lession name              | Class |
 |---------------------------|-------|
-| actinic-keratosis         | 5     |
-| basal-cell-carcinoma      | 10    |
-| dermatofibroma            | 0     |
-| hemangioma                | 11    |
-| intraepithelial-carcinoma | 6     |
-| lentigo                   | 4     |
-| malignant-melanoma        | 1     |
+| actinic-keratosis         | 0     |
+| basal-cell-carcinoma      | 1    |
+| dermatofibroma            | 2     |
+| hemangioma                | 3    |
+| intraepithelial-carcinoma | 4     |
+| lentigo                   | 5     |
+| malignant-melanoma        | 6     |
 | melanocytic-nevus         | 7     |
-| pyogenic-granuloma        | 3     |
-| seborrheic-keratosis      | 8     |
-| squamous-cell-carcinoma   | 2     |
-| wart                      | 9     |
+| pyogenic-granuloma        | 8     |
+| seborrheic-keratosis      | 9     |
+| squamous-cell-carcinoma   | 10     |
+| wart                      | 11    |
 
 Here is the confusion matrix for the current model:
 
@@ -129,14 +129,14 @@ Here is the confusion matrix for the current model:
 
 ### ROC analsis for some labels
 
-#### ROC for class 2 which is squamous-cell-carcinoma
+#### ROC for class 2 which is dermatofibroma
 ![ROC class 2](./roc-for2.png)
 
-#### ROC for class 6 which is intraepithelial-carcinoma
+#### ROC for class 6 which is lentigo
 ![ROC class 6](./roc-for6.png)
 
-#### ROC for class 9 which is wart
+#### ROC for class 9 which is seborrheic-keratosis
 ![ROC class 9](./roc-for9.png)
 
-#### ROC for class 11 which is hemangioma
+#### ROC for class 11 which is wart
 ![ROC class 11](./roc-for11.png)

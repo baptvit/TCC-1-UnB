@@ -3,6 +3,6 @@
 ## Faculdade UnB Gama - FGA
 ## Electronic Engineering
 
-### Reconstruction skin lesions classification using convolutional neural networks in clinical images 
+### XAI techniques applied on convolutional neural network for skin lesion classification.
 #### Author: João Vitor Rodrigues Baptista
 #### Advisor: Dr. Nilton Correia da Silva
